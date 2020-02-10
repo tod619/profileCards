@@ -58,11 +58,6 @@ font-family: 'Ubuntu', sans-serif; */
 
 /* Images */
 .image-top {
-  /* width: 100%;
-  height: 220px;
-  object-fit: cover;
-  -webkit-clip-path: polygon (0 0, 100% 0, 100% 73%, 0% 100%);
-  clip-path: polygon (0 0, 100% 0, 100% 73%, 0% 100%); */
   width: 100%;
   height: 220px;
   object-fit: cover;
@@ -71,5 +66,11 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 .profile-image {
-  width: 128px;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: -110px;
+  z-index: 1;
+  border: solid 10px #eee;
 }
