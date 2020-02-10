@@ -37,12 +37,27 @@ font-family: 'Ubuntu', sans-serif; */
   white-space: pre-wrap;
 }
 
+/* Create Cursor like pipe */
 .heading::after {
   content: "";
   width: 5px;
   height: 55px;
   background-color: #fff;
   position: absolute;
+  animation: blinking 1s 3s infinite;
+}
+
+/* Animation for cursor */
+@keyframes blinking {
+  0% {
+    background-color: #fff;
+  }
+  50% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #fff;
+  }
 }
 
 /* Card */
