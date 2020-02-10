@@ -19,3 +19,19 @@ font-family: 'Ubuntu', sans-serif; */
     url("../images/bg.jpeg") center no-repeat;
   background-size: cover;
 }
+
+/* Heading */
+.heading {
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 70px;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* Center Heading */
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
