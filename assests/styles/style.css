@@ -81,3 +81,19 @@ card h1 {
   color: #555;
   margin: 10px;
 }
+
+/* Card Paragraph Classes */
+.job {
+  font-family: "Montserrat", sans-serif;
+  color: #777;
+  font-weight: 300;
+}
+
+.about-me {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  width: 90%;
+  margin: 50px 0;
+  font-style: italic;
+  color: #444;
+}
