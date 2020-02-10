@@ -93,7 +93,21 @@ card h1 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   width: 90%;
-  margin: 50px 0;
+  margin: 15px 0;
   font-style: italic;
   color: #444;
+  text-align: center;
+}
+
+.card button {
+  width: 120px;
+  padding: 7px;
+  margin: 10px 0;
+  background-color: tomato;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #eee;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
 }
