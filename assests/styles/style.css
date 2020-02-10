@@ -81,6 +81,30 @@ font-family: 'Ubuntu', sans-serif; */
   transition: transform 0.5s;
 }
 
+/* Animate cards effect */
+@keyframes cardAnim {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Select each card seperatly so they display one after the other */
+.card:nth-child(1) {
+  animation: cardAnim 2s 3s backwards;
+}
+
+.card:nth-child(2) {
+  animation: cardAnim 2s 3.5s backwards;
+}
+
+.card:nth-child(3) {
+  animation: cardAnim 2s 4s backwards;
+}
+
 /* Card Hover effect */
 .card:hover {
   transform: scale(1.1);
