@@ -111,3 +111,34 @@ card h1 {
   color: #eee;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
 }
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  list-style: none;
+  width: 150px;
+  justify-content: space-evenly;
+  margin: 10px 0 20px 0;
+  border-top: solid 1px #999;
+  padding-top: 20px;
+}
+
+.social-icons i {
+  font-size: 18px;
+}
+
+.fa-facebook-f {
+  color: #3b5999;
+}
+
+.fa-youtube {
+  color: #cd201f;
+}
+
+.fa-twitter {
+  color: #55acee;
+}
+
+.fa-google-plus-g {
+  color: #dd4b39;
+}
