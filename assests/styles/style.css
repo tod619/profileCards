@@ -34,6 +34,15 @@ font-family: 'Ubuntu', sans-serif; */
   top: 10%;
   left: 50%;
   transform: translateX(-50%);
+  white-space: pre-wrap;
+}
+
+.heading::after {
+  content: "";
+  width: 5px;
+  height: 55px;
+  background-color: #fff;
+  position: absolute;
 }
 
 /* Card */
