@@ -289,6 +289,8 @@ card h1 {
 }
 
 /* Media Quiries */
+
+/* 1300px */
 @media (max-width: 1300px) {
   .heading {
     font-size: 60px;
@@ -305,6 +307,7 @@ card h1 {
   }
 }
 
+/* 1000px */
 @media (max-width: 1000px) {
   .container {
     height: 100%;
@@ -324,8 +327,28 @@ card h1 {
   }
 }
 
+/* 700px */
 @media (max-width: 700px) {
   .heading {
     font-size: 50px;
+  }
+
+  .heading::after {
+    height: 40px;
+  }
+}
+
+/* 450px */
+@media (max-width: 450px) {
+  .heading {
+    font-size: 40px;
+  }
+
+  .heading::after {
+    font-size: 35px;
+  }
+
+  .cards-wrapper {
+    padding: 250px 0 150px 0;
   }
 }
