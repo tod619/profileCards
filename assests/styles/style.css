@@ -24,7 +24,7 @@ font-family: 'Ubuntu', sans-serif; */
 .heading {
   color: #fff;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 70px;
+  font-size: 60px;
   letter-spacing: 5px;
   text-align: center;
   text-transform: uppercase;
@@ -286,4 +286,21 @@ card h1 {
 
 .fa-google-plus-g {
   color: #dd4b39;
+}
+
+/* Media Quiries */
+@media (max-width: 1300px) {
+  .heading {
+    font-size: 60px;
+    width: 80%;
+  }
+
+  .cards-wrapper {
+    width: 100%;
+    top: 30%;
+  }
+
+  .image-top {
+    height: 200px;
+  }
 }
