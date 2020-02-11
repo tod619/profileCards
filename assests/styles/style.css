@@ -304,3 +304,22 @@ card h1 {
     height: 200px;
   }
 }
+
+@media (max-width: 1000px) {
+  .container {
+    height: 100%;
+  }
+
+  .heading {
+    width: 90%;
+  }
+
+  .cards-wrapper {
+    flex-wrap: wrap;
+    padding: 300px 0 200px 0;
+  }
+
+  .card {
+    margin: 0 30px 50px 30px;
+  }
+}
